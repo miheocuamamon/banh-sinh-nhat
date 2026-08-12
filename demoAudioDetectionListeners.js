@@ -43,7 +43,7 @@ document.addEventListener('signal', event => {
 
   const line = hystogramLine(volume)
   console.log('dbV',dBV)
-  if (dBV >= -5){
+  if (dBV >= -12){
     console.log('Happy Birth Day')
     showCake()
   }
